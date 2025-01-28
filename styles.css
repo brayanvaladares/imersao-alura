@@ -68,6 +68,7 @@ h1 {
 }
 .library .library-button {
   display: flex;
+  align-items: center;
   margin-right: 10px;
   color: #b3b3b3;
   background-color: transparent;
@@ -88,7 +89,16 @@ h1 {
 }
 
 .library .library-content .fa-plus {
+  width: 14px;
+  height: 14px;
   margin: 24px 10px;
+  text-align: center;
+}
+
+.library .library-content .fa-plus:hover {
+  background-color: #222222;
+  box-shadow: 0 0 0 10px #222222;
+  border-radius: 50%;
 }
 
 .section-playlist {
