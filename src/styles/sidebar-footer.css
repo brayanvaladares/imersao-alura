@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: var(--font-dm-sans);
 }
 
 h1 {
@@ -46,7 +47,6 @@ h1 {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -113,7 +113,6 @@ h1 {
   font-size: 14px;
   margin: 8px 0px;
   padding: 16px 20px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist .section-playlist-content {
@@ -189,12 +188,11 @@ footer {
   height: 80px;
   box-sizing: border-box;
   background-image: linear-gradient(to right, #c833af, #528bdf);
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
 .footer-texts {
-  font-family: "DM Sans", sans-serif;
   color: #fff;
 }
 .footer-texts .title {
